@@ -27,6 +27,7 @@ export class ModificarImagenProductoComponent implements OnInit {
   }
 
   cambiaImagen() {
+    console.log('cambio para git');
     this.carga = true;
     if (this.siImagen) {
       const id = this.usuarioService.validarUsuarios();
